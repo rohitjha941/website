@@ -16,8 +16,11 @@ export default function Navbar() {
                     <a href={GitHub}><UilGithub size="30" color="#A7A7A7" /></a>
                 </div>
 
-                <Link className={styles.link} href=''>Experience</Link>
+                {
+                /*<Link className={styles.link} href=''>Experience</Link>
                 <Link className={styles.link} href=''>Contact </Link>
+                */
+                }
                 <Link className={styles.link} href='#teck-stack'>Tech Stack </Link>
                 <Link className={styles.link} href=''>Home </Link>
 
